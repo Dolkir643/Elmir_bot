@@ -16,7 +16,7 @@ from aiogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 from translit import has_cyrillic, lat_to_cyr, query_variants
 
-BOT_VERSION = "1.3.0"
+BOT_VERSION = "1.3.1"
 BOT_TOKEN = (os.getenv("BOT_TOKEN") or "").strip()
 TELEGRAM_PROXY = (os.getenv("TELEGRAM_PROXY") or "").strip() or None
 

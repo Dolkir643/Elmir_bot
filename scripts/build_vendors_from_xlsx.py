@@ -60,10 +60,14 @@ EXCLUDED_BRANDS = frozenset({
     "Код Безопасности (под проекты)",
     "Dell EMC",
     "EMC",
+    "Auto ID",
 })
 
 # Почта для указанных брендов (переопределение из листа)
 BRAND_EMAIL_OVERRIDE = {"Парус-Электро": "ups@electronmir.com", "Envicool": "ups@electronmir.com"}
+
+# Переименование брендов
+BRAND_NAME_OVERRIDE = {"Urovo": "Urovo (под проекты)"}
 
 
 def col_row(ref: str) -> tuple[int, int]:
@@ -149,11 +153,12 @@ def parse_brands_sheet(cells: dict[tuple[int, int], str]) -> list[dict]:
         if label in EXCLUDED_BRANDS:
             continue
 
+        label_out = BRAND_NAME_OVERRIDE.get(label, label)
         group_out = GROUP_DISPLAY.get(group, group)
-        email_out = BRAND_EMAIL_OVERRIDE.get(label, email)
+        email_out = BRAND_EMAIL_OVERRIDE.get(label_out, BRAND_EMAIL_OVERRIDE.get(label, email))
         out.append(
             {
-                "brand": label,
+                "brand": label_out,
                 "email": email_out,
                 "direction": direction,
                 "group": group_out,

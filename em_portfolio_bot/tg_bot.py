@@ -16,7 +16,7 @@ from aiogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 from translit import has_cyrillic, lat_to_cyr, query_variants
 
-BOT_VERSION = "1.3.4"
+BOT_VERSION = "1.3.5"
 BOT_TOKEN = (os.getenv("BOT_TOKEN") or "").strip()
 TELEGRAM_PROXY = (os.getenv("TELEGRAM_PROXY") or "").strip() or None
 
@@ -32,6 +32,11 @@ if not BOT_TOKEN:
 DIR = Path(__file__).resolve().parent
 VENDORS_PATH = DIR / "vendors.json"
 ALIASES_PATH = DIR / "brand_aliases.json"
+
+# Спец-запросы, которые не являются брендами (не попадают в /brands)
+SPECIAL_QUERY_EMAILS = {
+    "схематехника": "ups@elektronmir.com",
+}
 
 
 def _norm(s: str) -> str:
@@ -99,6 +104,8 @@ def search(query: str, vendors: list[dict], aliases_map: dict[str, list[str]]) -
     q_norm = _norm(query)
     if len(q_norm) < 2:
         return []
+    if q_norm in SPECIAL_QUERY_EMAILS:
+        return [{"brand": q_norm, "email": SPECIAL_QUERY_EMAILS[q_norm], "direction": "", "group": ""}]
     q_variants = [q_norm] + [v for v in query_variants(query) if v != q_norm]
     q_variants = list(dict.fromkeys(x for x in q_variants if x and len(x) >= 2))
 

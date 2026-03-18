@@ -1,0 +1,22 @@
+name: "ЭМ Портфель (бренды)"
+version: "1.3.0"
+slug: "em_portfolio_bot"
+description: "Telegram-бот: почта и контакт по бренду (портфель Электронный Мир)"
+arch:
+  - amd64
+  - aarch64
+startup: services
+boot: auto
+init: false
+advanced: true
+
+map:
+  - data:rw
+
+options:
+  bot_token: "ВАШ_ТОКЕН_ОТ_BOTFATHER"
+  telegram_proxy: ""
+
+schema:
+  bot_token: str
+  telegram_proxy: str?

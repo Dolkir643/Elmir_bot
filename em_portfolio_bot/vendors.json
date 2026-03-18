@@ -1,0 +1,836 @@
+[
+  {
+    "brand": "Yadro (под проекты)",
+    "email": "solutions@elektronmir.com",
+    "direction": "Сервера и СХД",
+    "group": ""
+  },
+  {
+    "brand": "Delta Computers",
+    "email": "solutions@elektronmir.com",
+    "direction": "Сервера и СХД",
+    "group": ""
+  },
+  {
+    "brand": "Fplus",
+    "email": "solutions@elektronmir.com",
+    "direction": "Сервера и СХД",
+    "group": ""
+  },
+  {
+    "brand": "Asus",
+    "email": "solutions@elektronmir.com",
+    "direction": "Сервера и СХД",
+    "group": ""
+  },
+  {
+    "brand": "xFusion",
+    "email": "solutions@elektronmir.com",
+    "direction": "Сервера и СХД",
+    "group": ""
+  },
+  {
+    "brand": "Dell EMC",
+    "email": "solutions@elektronmir.com",
+    "direction": "Сервера и СХД",
+    "group": ""
+  },
+  {
+    "brand": "Inspur",
+    "email": "solutions@elektronmir.com",
+    "direction": "Сервера и СХД",
+    "group": ""
+  },
+  {
+    "brand": "H3C",
+    "email": "solutions@elektronmir.com",
+    "direction": "Сервера и СХД",
+    "group": ""
+  },
+  {
+    "brand": "HAFF",
+    "email": "solutions@elektronmir.com",
+    "direction": "Сервера и СХД",
+    "group": ""
+  },
+  {
+    "brand": "HPE",
+    "email": "solutions@elektronmir.com",
+    "direction": "Сервера и СХД",
+    "group": ""
+  },
+  {
+    "brand": "Huawei",
+    "email": "solutions@elektronmir.com",
+    "direction": "Сервера и СХД",
+    "group": ""
+  },
+  {
+    "brand": "Infortrend",
+    "email": "solutions@elektronmir.com",
+    "direction": "Сервера и СХД",
+    "group": ""
+  },
+  {
+    "brand": "Lenovo",
+    "email": "solutions@elektronmir.com",
+    "direction": "Сервера и СХД",
+    "group": ""
+  },
+  {
+    "brand": "Supermicro",
+    "email": "solutions@elektronmir.com",
+    "direction": "Сервера и СХД",
+    "group": ""
+  },
+  {
+    "brand": "Netapp",
+    "email": "solutions@elektronmir.com",
+    "direction": "Сервера и СХД",
+    "group": ""
+  },
+  {
+    "brand": "Вектор Технологии",
+    "email": "solutions@elektronmir.com",
+    "direction": "Сервера и СХД",
+    "group": ""
+  },
+  {
+    "brand": "AudioCodes",
+    "email": "voice@elektronmir.com",
+    "direction": "Голос и коммуникация",
+    "group": ""
+  },
+  {
+    "brand": "ItooLabs",
+    "email": "voice@elektronmir.com",
+    "direction": "Голос и коммуникация",
+    "group": ""
+  },
+  {
+    "brand": "ITROO",
+    "email": "voice@elektronmir.com",
+    "direction": "Голос и коммуникация",
+    "group": ""
+  },
+  {
+    "brand": "Eltex",
+    "email": "voice@elektronmir.com",
+    "direction": "Голос и коммуникация",
+    "group": ""
+  },
+  {
+    "brand": "ФЛАТ",
+    "email": "voice@elektronmir.com",
+    "direction": "Голос и коммуникация",
+    "group": ""
+  },
+  {
+    "brand": "Код Безопасности (под проекты)",
+    "email": "solutions@elektronmir.com",
+    "direction": "Информационная безопасность",
+    "group": ""
+  },
+  {
+    "brand": "Fortinet",
+    "email": "solutions@elektronmir.com",
+    "direction": "Информационная безопасность",
+    "group": ""
+  },
+  {
+    "brand": "Huawei",
+    "email": "solutions@elektronmir.com",
+    "direction": "Информационная безопасность",
+    "group": ""
+  },
+  {
+    "brand": "Вектор Технологии",
+    "email": "solutions@elektronmir.com",
+    "direction": "Информационная безопасность",
+    "group": ""
+  },
+  {
+    "brand": "Fplus",
+    "email": "special@elektronmir.com",
+    "direction": "Печать и МФУ",
+    "group": ""
+  },
+  {
+    "brand": "Auto ID",
+    "email": "special@elektronmir.com",
+    "direction": "Печать и МФУ",
+    "group": ""
+  },
+  {
+    "brand": "DataLogic",
+    "email": "special@elektronmir.com",
+    "direction": "Печать и МФУ",
+    "group": ""
+  },
+  {
+    "brand": "Urovo",
+    "email": "special@elektronmir.com",
+    "direction": "Печать и МФУ",
+    "group": ""
+  },
+  {
+    "brand": "Bdcom",
+    "email": "net@elektronmir.com",
+    "direction": "Сетевые решения",
+    "group": "Коммутаторы"
+  },
+  {
+    "brand": "Brocade",
+    "email": "net@elektronmir.com",
+    "direction": "Сетевые решения",
+    "group": "Коммутаторы"
+  },
+  {
+    "brand": "Cisco",
+    "email": "net@elektronmir.com",
+    "direction": "Сетевые решения",
+    "group": "Коммутаторы"
+  },
+  {
+    "brand": "Edgecore",
+    "email": "net@elektronmir.com",
+    "direction": "Сетевые решения",
+    "group": "Коммутаторы"
+  },
+  {
+    "brand": "Eltex",
+    "email": "net@elektronmir.com",
+    "direction": "Сетевые решения",
+    "group": "Коммутаторы"
+  },
+  {
+    "brand": "Fortinet",
+    "email": "net@elektronmir.com",
+    "direction": "Сетевые решения",
+    "group": "Коммутаторы"
+  },
+  {
+    "brand": "Fplus",
+    "email": "net@elektronmir.com",
+    "direction": "Сетевые решения",
+    "group": "Коммутаторы"
+  },
+  {
+    "brand": "H3C",
+    "email": "net@elektronmir.com",
+    "direction": "Сетевые решения",
+    "group": "Коммутаторы"
+  },
+  {
+    "brand": "HPE",
+    "email": "net@elektronmir.com",
+    "direction": "Сетевые решения",
+    "group": "Коммутаторы"
+  },
+  {
+    "brand": "Huawei",
+    "email": "net@elektronmir.com",
+    "direction": "Сетевые решения",
+    "group": "Коммутаторы"
+  },
+  {
+    "brand": "Вектор",
+    "email": "net@elektronmir.com",
+    "direction": "Сетевые решения",
+    "group": "Коммутаторы"
+  },
+  {
+    "brand": "Bdcom",
+    "email": "net@elektronmir.com",
+    "direction": "Сетевые решения",
+    "group": "Маршрутизаторы"
+  },
+  {
+    "brand": "Cisco",
+    "email": "net@elektronmir.com",
+    "direction": "Сетевые решения",
+    "group": "Маршрутизаторы"
+  },
+  {
+    "brand": "Eltex",
+    "email": "net@elektronmir.com",
+    "direction": "Сетевые решения",
+    "group": "Маршрутизаторы"
+  },
+  {
+    "brand": "Huawei",
+    "email": "net@elektronmir.com",
+    "direction": "Сетевые решения",
+    "group": "Маршрутизаторы"
+  },
+  {
+    "brand": "Bdcom",
+    "email": "net@elektronmir.com",
+    "direction": "Сетевые решения",
+    "group": "Wi-Fi"
+  },
+  {
+    "brand": "Cisco",
+    "email": "net@elektronmir.com",
+    "direction": "Сетевые решения",
+    "group": "Wi-Fi"
+  },
+  {
+    "brand": "Edgecore",
+    "email": "net@elektronmir.com",
+    "direction": "Сетевые решения",
+    "group": "Wi-Fi"
+  },
+  {
+    "brand": "Eltex",
+    "email": "net@elektronmir.com",
+    "direction": "Сетевые решения",
+    "group": "Wi-Fi"
+  },
+  {
+    "brand": "Fortinet",
+    "email": "net@elektronmir.com",
+    "direction": "Сетевые решения",
+    "group": "Wi-Fi"
+  },
+  {
+    "brand": "Fplus",
+    "email": "net@elektronmir.com",
+    "direction": "Сетевые решения",
+    "group": "Wi-Fi"
+  },
+  {
+    "brand": "Huawei",
+    "email": "net@elektronmir.com",
+    "direction": "Сетевые решения",
+    "group": "Wi-Fi"
+  },
+  {
+    "brand": "Вектор",
+    "email": "net@elektronmir.com",
+    "direction": "Сетевые решения",
+    "group": "Wi-Fi"
+  },
+  {
+    "brand": "Eltex",
+    "email": "net@elektronmir.com",
+    "direction": "Сетевые решения",
+    "group": "Системы управления и мониторинга"
+  },
+  {
+    "brand": "Fortinet",
+    "email": "net@elektronmir.com",
+    "direction": "Сетевые решения",
+    "group": "Системы управления и мониторинга"
+  },
+  {
+    "brand": "Вектор",
+    "email": "net@elektronmir.com",
+    "direction": "Сетевые решения",
+    "group": "Системы управления и мониторинга"
+  },
+  {
+    "brand": "C3 Solutions",
+    "email": "dc@electronmir.com",
+    "direction": "IT- инженерные системы",
+    "group": "БРП"
+  },
+  {
+    "brand": "Hiden",
+    "email": "dc@electronmir.com",
+    "direction": "IT- инженерные системы",
+    "group": "БРП"
+  },
+  {
+    "brand": "NTSS",
+    "email": "dc@electronmir.com",
+    "direction": "IT- инженерные системы",
+    "group": "БРП"
+  },
+  {
+    "brand": "Raktek",
+    "email": "dc@electronmir.com",
+    "direction": "IT- инженерные системы",
+    "group": "БРП"
+  },
+  {
+    "brand": "C3 Solutions",
+    "email": "dc@electronmir.com",
+    "direction": "IT- инженерные системы",
+    "group": "ИБП"
+  },
+  {
+    "brand": "Hiden",
+    "email": "dc@electronmir.com",
+    "direction": "IT- инженерные системы",
+    "group": "ИБП"
+  },
+  {
+    "brand": "NTSS",
+    "email": "dc@electronmir.com",
+    "direction": "IT- инженерные системы",
+    "group": "ИБП"
+  },
+  {
+    "brand": "Парус-Электро",
+    "email": "dc@electronmir.com",
+    "direction": "IT- инженерные системы",
+    "group": "ИБП"
+  },
+  {
+    "brand": "C3 Solutions",
+    "email": "dc@electronmir.com",
+    "direction": "IT- инженерные системы",
+    "group": "СКС"
+  },
+  {
+    "brand": "NTSS",
+    "email": "dc@electronmir.com",
+    "direction": "IT- инженерные системы",
+    "group": "СКС"
+  },
+  {
+    "brand": "Premium-Line",
+    "email": "dc@electronmir.com",
+    "direction": "IT- инженерные системы",
+    "group": "СКС"
+  },
+  {
+    "brand": "C3 Solutions",
+    "email": "dc@electronmir.com",
+    "direction": "IT- инженерные системы",
+    "group": "Стойки и шкафы"
+  },
+  {
+    "brand": "Hiden",
+    "email": "dc@electronmir.com",
+    "direction": "IT- инженерные системы",
+    "group": "Стойки и шкафы"
+  },
+  {
+    "brand": "NTSS",
+    "email": "dc@electronmir.com",
+    "direction": "IT- инженерные системы",
+    "group": "Стойки и шкафы"
+  },
+  {
+    "brand": "Premium-Line",
+    "email": "dc@electronmir.com",
+    "direction": "IT- инженерные системы",
+    "group": "Стойки и шкафы"
+  },
+  {
+    "brand": "Raktek",
+    "email": "dc@electronmir.com",
+    "direction": "IT- инженерные системы",
+    "group": "Стойки и шкафы"
+  },
+  {
+    "brand": "C3 Solutions",
+    "email": "dc@electronmir.com",
+    "direction": "IT- инженерные системы",
+    "group": "Холод"
+  },
+  {
+    "brand": "Envicool",
+    "email": "dc@electronmir.com",
+    "direction": "IT- инженерные системы",
+    "group": "Холод"
+  },
+  {
+    "brand": "NTSS",
+    "email": "dc@electronmir.com",
+    "direction": "IT- инженерные системы",
+    "group": "Холод"
+  },
+  {
+    "brand": "ABR Technology",
+    "email": "comp@elektronmir.com",
+    "direction": "ПК и мобильные устройства",
+    "group": "Ноутбуки"
+  },
+  {
+    "brand": "Asus",
+    "email": "comp@elektronmir.com",
+    "direction": "ПК и мобильные устройства",
+    "group": "Ноутбуки"
+  },
+  {
+    "brand": "Fplus",
+    "email": "comp@elektronmir.com",
+    "direction": "ПК и мобильные устройства",
+    "group": "Ноутбуки"
+  },
+  {
+    "brand": "HONOR",
+    "email": "comp@elektronmir.com",
+    "direction": "ПК и мобильные устройства",
+    "group": "Ноутбуки"
+  },
+  {
+    "brand": "Lenovo",
+    "email": "comp@elektronmir.com",
+    "direction": "ПК и мобильные устройства",
+    "group": "Ноутбуки"
+  },
+  {
+    "brand": "MSI",
+    "email": "comp@elektronmir.com",
+    "direction": "ПК и мобильные устройства",
+    "group": "Ноутбуки"
+  },
+  {
+    "brand": "RDW Computers",
+    "email": "comp@elektronmir.com",
+    "direction": "ПК и мобильные устройства",
+    "group": "Ноутбуки"
+  },
+  {
+    "brand": "Rikor",
+    "email": "comp@elektronmir.com",
+    "direction": "ПК и мобильные устройства",
+    "group": "Ноутбуки"
+  },
+  {
+    "brand": "ABR Technology",
+    "email": "comp@elektronmir.com",
+    "direction": "ПК и мобильные устройства",
+    "group": "ПК (вкл. моно, мини)"
+  },
+  {
+    "brand": "Asus",
+    "email": "comp@elektronmir.com",
+    "direction": "ПК и мобильные устройства",
+    "group": "ПК (вкл. моно, мини)"
+  },
+  {
+    "brand": "Delta Computers",
+    "email": "comp@elektronmir.com",
+    "direction": "ПК и мобильные устройства",
+    "group": "ПК (вкл. моно, мини)"
+  },
+  {
+    "brand": "Lenovo",
+    "email": "comp@elektronmir.com",
+    "direction": "ПК и мобильные устройства",
+    "group": "ПК (вкл. моно, мини)"
+  },
+  {
+    "brand": "MSI",
+    "email": "comp@elektronmir.com",
+    "direction": "ПК и мобильные устройства",
+    "group": "ПК (вкл. моно, мини)"
+  },
+  {
+    "brand": "RDW Computers",
+    "email": "comp@elektronmir.com",
+    "direction": "ПК и мобильные устройства",
+    "group": "ПК (вкл. моно, мини)"
+  },
+  {
+    "brand": "Rikor",
+    "email": "comp@elektronmir.com",
+    "direction": "ПК и мобильные устройства",
+    "group": "ПК (вкл. моно, мини)"
+  },
+  {
+    "brand": "Delta Computers",
+    "email": "comp@elektronmir.com",
+    "direction": "ПК и мобильные устройства",
+    "group": "АРМ"
+  },
+  {
+    "brand": "RDW Computers",
+    "email": "comp@elektronmir.com",
+    "direction": "ПК и мобильные устройства",
+    "group": "АРМ"
+  },
+  {
+    "brand": "БайтЭрг",
+    "email": "comp@elektronmir.com",
+    "direction": "ПК и мобильные устройства",
+    "group": "Планшеты, смартфоны"
+  },
+  {
+    "brand": "Fplus",
+    "email": "comp@elektronmir.com",
+    "direction": "ПК и мобильные устройства",
+    "group": "Планшеты, смартфоны"
+  },
+  {
+    "brand": "HONOR",
+    "email": "comp@elektronmir.com",
+    "direction": "ПК и мобильные устройства",
+    "group": "Планшеты, смартфоны"
+  },
+  {
+    "brand": "Samsung",
+    "email": "comp@elektronmir.com",
+    "direction": "ПК и мобильные устройства",
+    "group": "Планшеты, смартфоны"
+  },
+  {
+    "brand": "ABR Technology",
+    "email": "comp@elektronmir.com",
+    "direction": "ПК и мобильные устройства",
+    "group": "Мониторы"
+  },
+  {
+    "brand": "Delta Computers",
+    "email": "comp@elektronmir.com",
+    "direction": "ПК и мобильные устройства",
+    "group": "Мониторы"
+  },
+  {
+    "brand": "RDW Computers",
+    "email": "comp@elektronmir.com",
+    "direction": "ПК и мобильные устройства",
+    "group": "Мониторы"
+  },
+  {
+    "brand": "Rikor",
+    "email": "comp@elektronmir.com",
+    "direction": "ПК и мобильные устройства",
+    "group": "Мониторы"
+  },
+  {
+    "brand": "Baseus",
+    "email": "comp@elektronmir.com",
+    "direction": "ПК и мобильные устройства",
+    "group": "Аксессуары"
+  },
+  {
+    "brand": "Ugreen",
+    "email": "comp@elektronmir.com",
+    "direction": "ПК и мобильные устройства",
+    "group": "Аксессуары"
+  },
+  {
+    "brand": "Bosch",
+    "email": "av@elektronmir.com",
+    "direction": "AV и ВКС",
+    "group": "ВКС и конгресс-системы"
+  },
+  {
+    "brand": "Hitrolink",
+    "email": "av@elektronmir.com",
+    "direction": "AV и ВКС",
+    "group": "ВКС и конгресс-системы"
+  },
+  {
+    "brand": "Sber",
+    "email": "av@elektronmir.com",
+    "direction": "AV и ВКС",
+    "group": "ВКС и конгресс-системы"
+  },
+  {
+    "brand": "Sennheiser",
+    "email": "av@elektronmir.com",
+    "direction": "AV и ВКС",
+    "group": "ВКС и конгресс-системы"
+  },
+  {
+    "brand": "Televic",
+    "email": "av@elektronmir.com",
+    "direction": "AV и ВКС",
+    "group": "ВКС и конгресс-системы"
+  },
+  {
+    "brand": "Shure",
+    "email": "av@elektronmir.com",
+    "direction": "AV и ВКС",
+    "group": "ВКС и конгресс-системы"
+  },
+  {
+    "brand": "Poly",
+    "email": "av@elektronmir.com",
+    "direction": "AV и ВКС",
+    "group": "ВКС и конгресс-системы"
+  },
+  {
+    "brand": "Cisco",
+    "email": "av@elektronmir.com",
+    "direction": "AV и ВКС",
+    "group": "ВКС и конгресс-системы"
+  },
+  {
+    "brand": "IVA",
+    "email": "av@elektronmir.com",
+    "direction": "AV и ВКС",
+    "group": "ВКС и конгресс-системы"
+  },
+  {
+    "brand": "Absen",
+    "email": "av@elektronmir.com",
+    "direction": "AV и ВКС",
+    "group": "Системы отображения"
+  },
+  {
+    "brand": "Boe",
+    "email": "av@elektronmir.com",
+    "direction": "AV и ВКС",
+    "group": "Системы отображения"
+  },
+  {
+    "brand": "Hitrolink",
+    "email": "av@elektronmir.com",
+    "direction": "AV и ВКС",
+    "group": "Системы отображения"
+  },
+  {
+    "brand": "Leyard",
+    "email": "av@elektronmir.com",
+    "direction": "AV и ВКС",
+    "group": "Системы отображения"
+  },
+  {
+    "brand": "Sber",
+    "email": "av@elektronmir.com",
+    "direction": "AV и ВКС",
+    "group": "Системы отображения"
+  },
+  {
+    "brand": "Philips",
+    "email": "av@elektronmir.com",
+    "direction": "AV и ВКС",
+    "group": "Системы отображения"
+  },
+  {
+    "brand": "Unilumin",
+    "email": "av@elektronmir.com",
+    "direction": "AV и ВКС",
+    "group": "Системы отображения"
+  },
+  {
+    "brand": "Allen&Heath",
+    "email": "av@elektronmir.com",
+    "direction": "AV и ВКС",
+    "group": "Автоматизация и управления AV-систем"
+  },
+  {
+    "brand": "Danacoid",
+    "email": "av@elektronmir.com",
+    "direction": "AV и ВКС",
+    "group": "Автоматизация и управления AV-систем"
+  },
+  {
+    "brand": "Intrend",
+    "email": "av@elektronmir.com",
+    "direction": "AV и ВКС",
+    "group": "Автоматизация и управления AV-систем"
+  },
+  {
+    "brand": "Spinetix",
+    "email": "av@elektronmir.com",
+    "direction": "AV и ВКС",
+    "group": "Автоматизация и управления AV-систем"
+  },
+  {
+    "brand": "MA Lighting",
+    "email": "av@elektronmir.com",
+    "direction": "AV и ВКС",
+    "group": "Световое оборудование и управление"
+  },
+  {
+    "brand": "MA Lighting",
+    "email": "av@elektronmir.com",
+    "direction": "AV и ВКС",
+    "group": "Световое оборудование и управление"
+  },
+  {
+    "brand": "Christie",
+    "email": "av@elektronmir.com",
+    "direction": "AV и ВКС",
+    "group": "Проекционное оборудование"
+  },
+  {
+    "brand": "Panasonic",
+    "email": "av@elektronmir.com",
+    "direction": "AV и ВКС",
+    "group": "Проекционное оборудование"
+  },
+  {
+    "brand": "Audac",
+    "email": "av@elektronmir.com",
+    "direction": "AV и ВКС",
+    "group": "Аудио"
+  },
+  {
+    "brand": "Biamp",
+    "email": "av@elektronmir.com",
+    "direction": "AV и ВКС",
+    "group": "Аудио"
+  },
+  {
+    "brand": "Electro-Voice",
+    "email": "av@elektronmir.com",
+    "direction": "AV и ВКС",
+    "group": "Аудио"
+  },
+  {
+    "brand": "Jbl (Harman Group)",
+    "email": "av@elektronmir.com",
+    "direction": "AV и ВКС",
+    "group": "Аудио"
+  },
+  {
+    "brand": "Sennheiser",
+    "email": "av@elektronmir.com",
+    "direction": "AV и ВКС",
+    "group": "Аудио"
+  },
+  {
+    "brand": "Shure",
+    "email": "av@elektronmir.com",
+    "direction": "AV и ВКС",
+    "group": "Аудио"
+  },
+  {
+    "brand": "Bosch",
+    "email": "av@elektronmir.com",
+    "direction": "AV и ВКС",
+    "group": "Аудио"
+  },
+  {
+    "brand": "Audac",
+    "email": "av@elektronmir.com",
+    "direction": "AV и ВКС",
+    "group": "Аудио"
+  },
+  {
+    "brand": "Biamp",
+    "email": "av@elektronmir.com",
+    "direction": "AV и ВКС",
+    "group": "Аудио"
+  },
+  {
+    "brand": "Electro-Voice",
+    "email": "av@elektronmir.com",
+    "direction": "AV и ВКС",
+    "group": "Аудио"
+  },
+  {
+    "brand": "Jbl (Harman Group)",
+    "email": "av@elektronmir.com",
+    "direction": "AV и ВКС",
+    "group": "Аудио"
+  },
+  {
+    "brand": "Sennheiser",
+    "email": "av@elektronmir.com",
+    "direction": "AV и ВКС",
+    "group": "Аудио"
+  },
+  {
+    "brand": "Shure",
+    "email": "av@elektronmir.com",
+    "direction": "AV и ВКС",
+    "group": "Аудио"
+  },
+  {
+    "brand": "Bosch",
+    "email": "av@elektronmir.com",
+    "direction": "AV и ВКС",
+    "group": "Аудио"
+  }
+]

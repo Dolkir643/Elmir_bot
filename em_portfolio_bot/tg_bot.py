@@ -16,7 +16,7 @@ from aiogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 from translit import has_cyrillic, lat_to_cyr, query_variants
 
-BOT_VERSION = "1.3.2"
+BOT_VERSION = "1.3.3"
 BOT_TOKEN = (os.getenv("BOT_TOKEN") or "").strip()
 TELEGRAM_PROXY = (os.getenv("TELEGRAM_PROXY") or "").strip() or None
 
@@ -199,7 +199,7 @@ async def main() -> None:
         if not brands:
             await message.answer("Список брендов пуст.")
             return
-        header = "Все бренды (сначала русские, затем латиница):\n\n"
+        header = 'Все бренды портфеля Элмир "проектные решения"\n\n'
         body = "\n".join(brands)
         text = header + body
         if len(text) <= 4096:

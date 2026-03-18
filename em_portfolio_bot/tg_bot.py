@@ -16,15 +16,14 @@ from aiogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 from translit import has_cyrillic, lat_to_cyr, query_variants
 
-BOT_VERSION = "1.3.1"
+BOT_VERSION = "1.3.2"
 BOT_TOKEN = (os.getenv("BOT_TOKEN") or "").strip()
 TELEGRAM_PROXY = (os.getenv("TELEGRAM_PROXY") or "").strip() or None
 
 WELCOME = (
     "Портфель <b>Электронный Мир</b>\n"
-    "Напишите бренд, группу или направление (можно по-русски или с опечаткой) — "
-    "ответом будет почта.\n"
-    "/start — подсказка."
+    "Напишите бренд, группу или направление — ответом будет почта.\n"
+    "Все бренды списком: /brands"
 )
 
 if not BOT_TOKEN:
@@ -140,6 +139,18 @@ def format_reply(hits: list[dict]) -> str:
     return "\n".join(emails)
 
 
+def get_all_brands_sorted(vendors: list[dict]) -> list[str]:
+    """Уникальные бренды: сначала русские по алфавиту, потом английские по алфавиту."""
+    unique: set[str] = set()
+    for v in vendors:
+        b = (v.get("brand") or "").strip()
+        if b:
+            unique.add(b)
+    ru = sorted([b for b in unique if has_cyrillic(b)])
+    en = sorted([b for b in unique if not has_cyrillic(b)], key=str.lower)
+    return ru + en
+
+
 def build_clarify_options(hits: list[dict]) -> list[tuple[str, str]]:
     """Уникальные варианты (подпись для кнопки, почта) по направлениям/группам."""
     seen: set[tuple[str, str]] = set()
@@ -181,6 +192,32 @@ async def main() -> None:
         user_id = message.from_user.id if message.from_user else 0
         user_clarify.pop(user_id, None)
         await message.answer(WELCOME, parse_mode="HTML")
+
+    @dp.message(Command("brands"))
+    async def cmd_brands(message: types.Message) -> None:
+        brands = get_all_brands_sorted(vendors)
+        if not brands:
+            await message.answer("Список брендов пуст.")
+            return
+        header = "Все бренды (сначала русские, затем латиница):\n\n"
+        body = "\n".join(brands)
+        text = header + body
+        if len(text) <= 4096:
+            await message.answer(text)
+            return
+        await message.answer(header.strip())
+        max_len = 4000
+        chunk: list[str] = []
+        size = 0
+        for b in brands:
+            if size + len(b) + 1 > max_len and chunk:
+                await message.answer("\n".join(chunk))
+                chunk = []
+                size = 0
+            chunk.append(b)
+            size += len(b) + 1
+        if chunk:
+            await message.answer("\n".join(chunk))
 
     def _make_clarify_kb(options: list[tuple[str, str]]) -> InlineKeyboardMarkup:
         row_size = 2 if len(options) > 4 else 1

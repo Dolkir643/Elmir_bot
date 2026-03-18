@@ -51,6 +51,20 @@ GROUPS = frozenset({
     "Аудио",
 })
 
+# Группа в выводе: подменяем длинное название
+GROUP_DISPLAY = {"ПК (вкл. моно, мини)": "Персональные компьютеры"}
+
+# Бренды, которые не включаем в каталог
+EXCLUDED_BRANDS = frozenset({
+    "Yadro (под проекты)",
+    "Код Безопасности (под проекты)",
+    "Dell EMC",
+    "EMC",
+})
+
+# Почта для указанных брендов (переопределение из листа)
+BRAND_EMAIL_OVERRIDE = {"Парус-Электро": "ups@electronmir.com", "Envicool": "ups@electronmir.com"}
+
 
 def col_row(ref: str) -> tuple[int, int]:
     m = re.match(r"([A-Z]+)(\d+)", ref)
@@ -132,12 +146,17 @@ def parse_brands_sheet(cells: dict[tuple[int, int], str]) -> list[dict]:
             group = label
             continue
 
+        if label in EXCLUDED_BRANDS:
+            continue
+
+        group_out = GROUP_DISPLAY.get(group, group)
+        email_out = BRAND_EMAIL_OVERRIDE.get(label, email)
         out.append(
             {
                 "brand": label,
-                "email": email,
+                "email": email_out,
                 "direction": direction,
-                "group": group,
+                "group": group_out,
             }
         )
 

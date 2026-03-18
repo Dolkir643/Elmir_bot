@@ -16,12 +16,12 @@ from aiogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 from translit import has_cyrillic, lat_to_cyr, query_variants
 
-BOT_VERSION = "1.3.3"
+BOT_VERSION = "1.3.4"
 BOT_TOKEN = (os.getenv("BOT_TOKEN") or "").strip()
 TELEGRAM_PROXY = (os.getenv("TELEGRAM_PROXY") or "").strip() or None
 
 WELCOME = (
-    "Портфель <b>Электронный Мир</b>\n"
+    'Портфель <b>ЭлМир "Проектные решения"</b>\n'
     "Напишите бренд, группу или направление — ответом будет почта.\n"
     "Все бренды списком: /brands"
 )
@@ -199,7 +199,7 @@ async def main() -> None:
         if not brands:
             await message.answer("Список брендов пуст.")
             return
-        header = 'Все бренды портфеля Элмир "проектные решения"\n\n'
+        header = 'Все бренды портфеля ЭлМир "Проектные решения"\n\n'
         body = "\n".join(brands)
         text = header + body
         if len(text) <= 4096:

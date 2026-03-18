@@ -3,7 +3,6 @@
   "Sennheiser": ["Зеннхайзер", "Сеннхайзер", "Сенхайзер", "сеннхайзер", "Sennheizer", "SENNHEISER", "зеннхайзер"],
   "Cisco": ["Сиско", "сиско", "Cisko", "CISCO", "циско"],
   "Huawei": ["Хуавей", "Хуавей", "хуавей", "Huawei", "HUAWEI", "Huavei"],
-  "Dell EMC": ["Делл", "Dell", "EMC", "Делл ИМС", "делл"],
   "Lenovo": ["Леново", "леново", "LENOVO", "Lenovo"],
   "Asus": ["Асус", "асус", "ASUS", "asus", "Азус"],
   "Bosch": ["Бош", "бош", "BOSH", "Bosch"],
@@ -66,7 +65,5 @@
   "Edgecore": ["Эджкор", "edge core", "EDGECORE", "эджкор"],
   "Envicool": ["Энвикул", "envicool", "ENVICOOL", "энвикул"],
   "xFusion": ["Икс Фьюжн", "X Fusion", "XFUSION", "икс фьюжн", "x fusion"],
-  "Yadro (под проекты)": ["Yadro", "Ядро", "ядро", "YADRO", "ядеро"],
-  "Код Безопасности (под проекты)": ["Код Безопасности", "код безопасности", "Kod Bezopasnosti"],
   "HAFF": ["ХАФФ", "haff", "Haff", "хафф"]
 }

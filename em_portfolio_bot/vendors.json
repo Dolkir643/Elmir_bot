@@ -1,11 +1,5 @@
 [
   {
-    "brand": "Yadro (под проекты)",
-    "email": "solutions@elektronmir.com",
-    "direction": "Сервера и СХД",
-    "group": ""
-  },
-  {
     "brand": "Delta Computers",
     "email": "solutions@elektronmir.com",
     "direction": "Сервера и СХД",
@@ -25,12 +19,6 @@
   },
   {
     "brand": "xFusion",
-    "email": "solutions@elektronmir.com",
-    "direction": "Сервера и СХД",
-    "group": ""
-  },
-  {
-    "brand": "Dell EMC",
     "email": "solutions@elektronmir.com",
     "direction": "Сервера и СХД",
     "group": ""
@@ -123,12 +111,6 @@
     "brand": "ФЛАТ",
     "email": "voice@elektronmir.com",
     "direction": "Голос и коммуникация",
-    "group": ""
-  },
-  {
-    "brand": "Код Безопасности (под проекты)",
-    "email": "solutions@elektronmir.com",
-    "direction": "Информационная безопасность",
     "group": ""
   },
   {
@@ -373,7 +355,7 @@
   },
   {
     "brand": "Парус-Электро",
-    "email": "dc@electronmir.com",
+    "email": "ups@electronmir.com",
     "direction": "IT- инженерные системы",
     "group": "ИБП"
   },
@@ -433,7 +415,7 @@
   },
   {
     "brand": "Envicool",
-    "email": "dc@electronmir.com",
+    "email": "ups@electronmir.com",
     "direction": "IT- инженерные системы",
     "group": "Холод"
   },
@@ -495,43 +477,43 @@
     "brand": "ABR Technology",
     "email": "comp@elektronmir.com",
     "direction": "ПК и мобильные устройства",
-    "group": "ПК (вкл. моно, мини)"
+    "group": "Персональные компьютеры"
   },
   {
     "brand": "Asus",
     "email": "comp@elektronmir.com",
     "direction": "ПК и мобильные устройства",
-    "group": "ПК (вкл. моно, мини)"
+    "group": "Персональные компьютеры"
   },
   {
     "brand": "Delta Computers",
     "email": "comp@elektronmir.com",
     "direction": "ПК и мобильные устройства",
-    "group": "ПК (вкл. моно, мини)"
+    "group": "Персональные компьютеры"
   },
   {
     "brand": "Lenovo",
     "email": "comp@elektronmir.com",
     "direction": "ПК и мобильные устройства",
-    "group": "ПК (вкл. моно, мини)"
+    "group": "Персональные компьютеры"
   },
   {
     "brand": "MSI",
     "email": "comp@elektronmir.com",
     "direction": "ПК и мобильные устройства",
-    "group": "ПК (вкл. моно, мини)"
+    "group": "Персональные компьютеры"
   },
   {
     "brand": "RDW Computers",
     "email": "comp@elektronmir.com",
     "direction": "ПК и мобильные устройства",
-    "group": "ПК (вкл. моно, мини)"
+    "group": "Персональные компьютеры"
   },
   {
     "brand": "Rikor",
     "email": "comp@elektronmir.com",
     "direction": "ПК и мобильные устройства",
-    "group": "ПК (вкл. моно, мини)"
+    "group": "Персональные компьютеры"
   },
   {
     "brand": "Delta Computers",
